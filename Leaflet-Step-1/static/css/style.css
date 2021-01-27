@@ -8,3 +8,63 @@ body,
 html {
   height: 100%;
 }
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 8px 8px;
+  font-family: Sanchez, serif;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  line-height: 24px;
+  color: black;
+}
+
+.legend k {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 40px 0 0;
+  opacity: 0.9;
+}
+
+.legend span {
+  position: relative;
+}
+
+.depth2{
+  border-style: solid;
+  border-color: black;
+  background-color: #ffebec;
+}
+.depth3{
+  border-style: solid;
+  border-color: black;
+  background-color: #f7abaf;
+}
+.depth4{
+  border-style: solid;
+  border-color: black;
+  background-color: #ff6b73;
+}
+.depth5{
+   border-style: solid;
+  border-color: black;
+  background-color: #f71925;
+}
+.depth6{
+   border-style: solid;
+  border-color: black;
+  background-color: #990008;
+}
